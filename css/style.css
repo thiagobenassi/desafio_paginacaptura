@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url("../background.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family:'Lato', sans-serif;
+    overflow: hidden;
+}
+img{
+    margin-top: 18%;
+    width: 90px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 43px;
+    margin-bottom: 13px;
+}
+h2{
+    font-size: 29px;
+    margin-bottom: 40px;   
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.centro{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 550px; 
+}
+.name{
+    margin-bottom: 7px;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;   
+}
+.email{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.checkbox{
+    font-size: 16px;
+    text-align: left;
+    font-family: none;  
+}
+input{
+    padding: 12px;
+}
+button{
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(20, 45, 128);
+    border: none;
+    border: rgb(20, 45, 128);
+    color: white;
+    font-size: 17px;   
+}
+button:hover{
+    background: rgb(27, 53, 131);
+    cursor: pointer;
+}
